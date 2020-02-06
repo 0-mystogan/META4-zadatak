@@ -1,0 +1,150 @@
+:root {
+	--primary-color: #50545f;
+	--secondary-color: #7aabe4;
+	--dark-color: #333333;
+	--light-color: #f4f4f4;
+	--danger-color: #dc3545;
+	--success-color: #28a745;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');*/
+
+html body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--light-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input {
+	width: 45%;
+	height: 80%;
+}
+.output {
+	width: 45%;
+	height: 80%;
+}
+.naslov {
+	margin-bottom: 15px;
+	color: var(--primary-color);
+	font-weight: 900;
+	font-size: x-large;
+	width: 50%;
+	border-bottom: solid 2px var(--primary-color);
+}
+
+.label {
+	margin-top: 20px;
+	color: var(--primary-color);
+	font-size: large;
+}
+
+.inputBroj {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 0;
+	outline: 0;
+	width: 70%;
+	height: 70px;
+	border-radius: 15px;
+	color: var(--secondary-color);
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;
+}
+
+.dugme {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width: 70%;
+	height: 15%;
+	background-color: var(--secondary-color);
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 75px;
+	outline: none;
+}
+
+.maloDugme {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 40%;
+	height: 25px;
+	background-color: var(--secondary-color);
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	line-height: 20px;
+	outline: none;
+}
+
+.kocka {
+	cursor: default;
+	outline: none;
+	border: none;
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff;
+	color: var(--primary-color);
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 15px;
+}
+.prva {
+	background-color: var(--primary-color);
+	color: #ffffff;
+}
+
+.red {
+	display: flex;
+	flex-direction: row;
+}
+
+/*.upozorenje {
+	display: block;
+	width: 100%;
+	color: #ffffff;
+	background-color: rgb(80, 84, 95);
+	height: 10%;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 15px;
+	opacity: 0.5;
+}*/
+.alert {
+	padding: 0.7rem;
+	margin: 1rem 0;
+	opacity: 0.9;
+	background: var(--light-color);
+	color: #333;
+}
+.alert-primary {
+	background: var(--primary-color);
+	color: #fff;
+}
+.alert-light {
+	background: var(--light-color);
+	color: #333;
+}
